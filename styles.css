@@ -1,0 +1,57 @@
+body {
+	background: black;
+}
+
+* {
+	min-height: 10px;
+	font-family: "Gowun Batang", serif;
+}
+
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+
+.postcard-header {
+	display: flex;
+}
+
+.postcard-header img {
+	height: 50px;
+	width: 50px;
+	margin: 10px;
+}
+
+.postcard-header h1 {
+	width: 100%;
+	margin: 10px 0 0 10px;
+}
+
+.postcard-body {
+	display: flex;
+}
+
+.body-left p:first-child {
+	margin-top: 0;
+}
+
+.body-left,
+.body-right {
+	padding: 10px;
+}
+
+.body-right input {
+	border: 0;
+	border-bottom: 1px solid lightgrey;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+.postcard-footer button {
+	background: darkgrey;
+	padding: 5px;
+}
